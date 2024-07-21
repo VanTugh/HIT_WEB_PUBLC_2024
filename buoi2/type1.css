@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h2
+{
+    font-size: 70px;
+    color: rgb(22, 51, 77);
+    
+}
+body
+{
+    background-color: white;
+    background-image: url("https://ddk.1cdn.vn/2024/07/01/m1.jpg");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    background-size: 100px;
+}
+
+p
+{
+    font-family:Georgia, 'Times New Roman', Times, serif   ;
+    font-size: 15px;
+    color:aqua;
+}
+/* trỏ tới class sẽ dùng dấu ., id sẽ là dấu # */
+.box
+{
+    border: 100px solid white;
+    border-width:10px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px 20px 18px;
+    margin: 20px 10px 12px 8px;
+    font-variant: normal;
+}
+#heading
+{
+    color:black;
+}
