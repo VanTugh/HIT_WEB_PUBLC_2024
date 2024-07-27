@@ -1,0 +1,72 @@
+*
+{
+ margin: 0;
+ border: 0;
+ padding: 0;
+ box-sizing:border-box;
+}
+p
+{
+    color: rgb(64, 124, 177);
+    font-style: oblique;
+}
+div > p
+{
+    color: rgb(255, 0, 132);
+}
+ li:first-child
+{
+    color: brown;/* dùng :first-child để chọn phần tử thứ 1 */
+}
+li:last-child
+{
+    color: pink; /*dùng để chọn ptu cuối */
+}
+/* chọn ptu thứ n */
+li:nth-child(3)
+{
+  color: orange; 
+}
+/* dùng :hover để chọn phần tử sẽ dc style khi di chuột vào*/
+li:hover
+{
+    color: aliceblue;
+}
+.card
+{
+    width: max-content;
+    background-color: #f1f1f1;
+}
+.card_image
+{
+    width: 100%;
+    max-width: 200px;
+}
+.card_content
+{
+    padding: 10px;
+}
+.card_title
+{
+    font-size: 10px;
+}
+.card_description
+{
+    font-size: 16px;
+}
+.card_button
+{
+ padding: 5px 10px;
+}
+.card_button--red
+{
+ background-color: red;
+ color: white;
+}
+.card_button--disable
+{
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;  
+  /*     chuyển con trỏ thành dấu cấm */
+}
